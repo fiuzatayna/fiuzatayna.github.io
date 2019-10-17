@@ -4,10 +4,7 @@ title: "Conteúdo do Tutorial"
 date: 2019-10-18
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
-
-O que acontece se eu inserir HTML aqui?
-
+Aqui estão os conteúdos que devem ser inseridos em diferentes arquivos ao longo do tutorial. 
 
 ---
 
