@@ -8,6 +8,10 @@ Well. Finally got around to putting this old website together. Neat thing about 
 
 O que acontece se eu inserir HTML aqui?
 
+
+---
+**NOTE**
+
 <pre class="prettyprint pre-scrollable"><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 	&lt;head&gt;
@@ -36,3 +40,6 @@ O que acontece se eu inserir HTML aqui?
 		&lt;/footer&gt;
 	&lt;/body&gt;
 &lt;/html&gt;</code></pre>
+---
+
+
