@@ -8,7 +8,7 @@ Aqui estão os conteúdos que devem ser inseridos em diferentes arquivos ao long
 
 ---
 
-## **index.html [1]**
+**index.html [1]**
 ---
 <pre class="prettyprint pre-scrollable"><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -40,7 +40,7 @@ Aqui estão os conteúdos que devem ser inseridos em diferentes arquivos ao long
 &lt;/html&gt;</code></pre>
 ---
 
-## **main.css [1]**
+**main.css [1]**
 ---
 <pre class="prettyprint pre-scrollable">
 body &lbrace;
