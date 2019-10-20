@@ -13,7 +13,7 @@ Aqui estão os conteúdos que devem ser inseridos em diferentes arquivos ao long
 <pre class="prettyprint pre-scrollable"><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 	&lt;head&gt;
-		&lt;title&gt;Hank Quinlan, Horrible Cop&lt;/title&gt;
+		&lt;title&gt;[Seu Nome], primeiro site&lt;/title&gt;
 	&lt;/head&gt;
 	&lt;body&gt;
 		&lt;nav&gt;
@@ -26,21 +26,21 @@ Aqui estão os conteúdos que devem ser inseridos em diferentes arquivos ao long
 		&lt;/nav&gt;
 		&lt;div class="container"&gt;
     		&lt;div class="blurb"&gt;
-        		&lt;h1&gt;Hi there, I'm Hank Quinlan!&lt;/h1&gt;
-				&lt;p&gt;I'm best known as the horrible cop from &lt;em&gt;A Touch of Evil&lt;/em&gt; Don't trust me. &lt;a href="/about"&gt;Read more about my life...&lt;/a&gt;&lt;/p&gt;
+        		&lt;h1&gt;Oi, eu sou [Seu Nome]!&lt;/h1&gt;
+				&lt;p&gt;Estou criando essa página como parte de um tutorial da disciplina de &lt;em&gt;Geração de Aplicativos em Bioinformática;/em&gt; Saiba mais sobre mim &lt;a href="/about"&gt;aqui&lt;/a&gt;&lt;/p&gt;
     		&lt;/div&gt;&lt;!-- /.blurb --&gt;
 		&lt;/div&gt;&lt;!-- /.container --&gt;
 		&lt;footer&gt;
     		&lt;ul&gt;
-        		&lt;li&gt;&lt;a href="mailto:hankquinlanhub@gmail.com"&gt;email&lt;/a&gt;&lt;/li&gt;
-        		&lt;li&gt;&lt;a href="https://github.com/hankquinlan"&gt;github.com/hankquinlan&lt;/a&gt;&lt;/li&gt;
+        		&lt;li&gt;&lt;a href="mailto:seuemail@gmail.com"&gt;email&lt;/a&gt;&lt;/li&gt;
+        		&lt;li&gt;&lt;a href="https://github.com/seugithub"&gt;github.com/seugithub&lt;/a&gt;&lt;/li&gt;
 			&lt;/ul&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
 &lt;/html&gt;</code></pre>
 ---
 
-**main.css [1]**
+**css/main.css [1]**
 ---
 <pre class="prettyprint pre-scrollable">
 body &lbrace;
@@ -95,7 +95,7 @@ ul.posts li &lbrace;
 <pre class="prettyprint pre-scrollable"><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 	&lt;head&gt;
-		&lt;title&gt;Hank Quinlan, Horrible Cop&lt;/title&gt;
+		&lt;title&gt;[Seu Nome], primeiro site&lt;/title&gt;
 		<strong>&lt;!-- link to main stylesheet --&gt;</strong>
 		<strong>&lt;link rel="stylesheet" type="text/css" href="/css/main.css"&gt;</strong>
 	&lt;/head&gt;
@@ -110,14 +110,14 @@ ul.posts li &lbrace;
 		&lt;/nav&gt;
 		&lt;div class="container"&gt;
     		&lt;div class="blurb"&gt;
-        		&lt;h1&gt;Hi there, I'm Hank Quinlan!&lt;/h1&gt;
-				&lt;p&gt;I'm best known as the horrible cop from &lt;em&gt;A Touch of Evil&lt;/em&gt; Don't trust me. &lt;a href="/about"&gt;Read more about my life...&lt;/a&gt;&lt;/p&gt;
+        		&lt;h1&gt;Oi, eu sou [Seu Nome]!&lt;/h1&gt;
+				&lt;p&gt;Estou criando essa página como parte de um tutorial da disciplina de &lt;em&gt;Geração de Aplicativos em Bioinformática;/em&gt; Saiba mais sobre mim &lt;a href="/about"&gt;aqui&lt;/a&gt;&lt;/p&gt;
     		&lt;/div&gt;&lt;!-- /.blurb --&gt;
 		&lt;/div&gt;&lt;!-- /.container --&gt;
 		&lt;footer&gt;
     		&lt;ul&gt;
-        		&lt;li&gt;&lt;a href="mailto:hankquinlanhub@gmail.com"&gt;email&lt;/a&gt;&lt;/li&gt;
-        		&lt;li&gt;&lt;a href="https://github.com/hankquinlan"&gt;github.com/hankquinlan&lt;/a&gt;&lt;/li&gt;
+        		&lt;li&gt;&lt;a href="mailto:seuemail@gmail.com"&gt;email&lt;/a&gt;&lt;/li&gt;
+        		&lt;li&gt;&lt;a href="https://github.com/seugithub"&gt;github.com/seugithub&lt;/a&gt;&lt;/li&gt;
 			&lt;/ul&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
@@ -164,8 +164,9 @@ layout: default
 title: Hank Quinlan, Horrible Cop
 ---
 &lt;div class="blurb"&gt;
-	&lt;h1&gt;Hi there, I'm Hank Quinlan!&lt;/h1&gt;
-	&lt;p&gt;I'm best known as the horrible cop from &lt;em&gt;A Touch of Evil&lt;/em&gt; Don't trust me. &lt;a href="/about"&gt;Read more about my life...&lt;/a&gt;&lt;/p&gt;
+    &lt;h1&gt;Oi, eu sou [Seu Nome]!&lt;/h1&gt;
+            &lt;p&gt;Estou criando essa página como parte de um tutorial da disciplina de &lt;em&gt;Geração de Aplicativos em Bioinformática;/em&gt; Saiba mais sobre mim &lt;a href="/about"&gt;aqui&lt;/a&gt;&lt;/p&gt;
+
 &lt;/div&gt;&lt;!-- /.blurb --&gt;</code></pre>
 ---
 
@@ -187,11 +188,11 @@ layout: default
 ---
 <pre class="prettyprint pre-scrollable"><code>---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
+title: "[Seu Nome] lança site"
 date: 2019-10-21
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by &lbrack;Jekyll&rbrack;&lpar;http://jekyllrb.com&rpar; and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+Aqui estamos, esse é meu primeiro post no blog do site que criei nesse tutorial do GitHub. 
 </code></pre>
 ---
 
@@ -199,7 +200,7 @@ Well. Finally got around to putting this old website together. Neat thing about 
 ---
 <pre class="prettyprint pre-scrollable"><code>---
 layout: default
-title: Hank Quinlan's Blog
+title: Blog de [Seu Nome]
 ---
 	&lt;h1&gt;&lbrace;&lbrace; page.title &rbrace;&rbrace;&lt;/h1&gt;
 	&lt;ul class="posts"&gt;
