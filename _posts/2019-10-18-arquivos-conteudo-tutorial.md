@@ -161,7 +161,7 @@ ul.posts li &lbrace;
 ---
 <pre class="prettyprint pre-scrollable"><code>---
 layout: default
-title: Hank Quinlan, Horrible Cop
+title: [Seu Nome], [Outra Informação]
 ---
 &lt;div class="blurb"&gt;
     &lt;h1&gt;Oi, eu sou [Seu Nome]!&lt;/h1&gt;
@@ -184,7 +184,7 @@ layout: default
 &lt;/div&gt;</code></pre>
 ---
 
-**_posts/2019-10-21-hank-quinlan-site-launched.md**
+**_posts/2019-10-21-seu-nome-lanca-site.md**
 ---
 <pre class="prettyprint pre-scrollable"><code>---
 layout: post
